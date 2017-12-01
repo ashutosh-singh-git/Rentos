@@ -1,0 +1,38 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+}
+
+#settings {
+	padding: 10px;
+}
+
+/****** Sidebar *******/
+
+.logo {
+    height: 48px;
+    background: transparent;
+    border-radius: 6px;
+    margin: 16px;
+    color: white;
+}
+
+.logo > label {
+    font-size: 34px;
+}
+
+/****** Editable Row *******/
+
+.editable-row-text {
+    padding: 0px;
+}
+
+.editable-row-operations a {
+    margin-right: 4px;
+}
+
+.tableTitle {
+    text-align: center;
+    margin: 5px 0px 20px;
+}

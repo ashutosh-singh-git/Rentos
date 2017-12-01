@@ -1,0 +1,51 @@
+{
+  "name": "rentos",
+  "version": "1.0.0",
+  "description": "Rent Based Sytem",
+  "main": "electron.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --profile --colors",
+    "build": "webpack",
+    "play": "electron .",
+    "server": "node ./server/server",
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run server\""
+  },
+  "author": "Ashutosh Singh",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.13.4",
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "moment": "latest",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2018": "^1.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "cors": "^2.8.4",
+    "css-loader": "^0.28.7",
+    "electron": "^1.7.9",
+    "electron-installer-dmg": "^0.2.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1"
+  }
+}
